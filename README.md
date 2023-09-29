@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # <img src="https://www.holbertonschool.com/assets/holberton-logo-simplified-71b02868461c07d54553e4a7cc05d1926681a6755cc19030b0458f2d70ae9909.png" width="30"> AirBnB Clone V.3 - MYSQL
 
 ## Synopsis
@@ -165,3 +166,6 @@ No known bugs at this time.
 
 ## License
 Public Domain. No copywrite protection. 
+=======
+# AirBnB_clone_v3
+>>>>>>> e92f50652b11643878afc44a7f86bfc90cf1f432
