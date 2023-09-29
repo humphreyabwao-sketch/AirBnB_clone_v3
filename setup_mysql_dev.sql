@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- script that prepares a dev MySQL server for the AirBnB clone project.
 CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
 -- a new user hbnb_dev (in localhost).
@@ -8,3 +9,10 @@ GRANT USAGE ON *.* TO 'hbnb_dev'@'localhost';
 GRANT ALL PRIVILEGES ON `hbnb_dev_db`.* TO 'hbnb_dev'@'localhost';
 -- hbnb_dev should have SELECT privilege on the database performance_schema.
 GRANT SELECT ON `performance_schema`.* TO 'hbnb_dev'@'localhost';
+=======
+-- script that prepares a MySQL server for the project
+CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
+CREATE USER IF NOT EXISTS 'hbnb_dev'@'localhost' IDENTIFIED BY 'hbnb_dev_pwd';
+GRANT ALL ON hbnb_dev_db.* TO 'hbnb_dev'@'localhost';
+GRANT SELECT ON performance_schema.* TO 'hbnb_dev'@'localhost';
+>>>>>>> a4ad136cc8183e2e396f4d80437c12391edb6519
